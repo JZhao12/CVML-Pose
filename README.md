@@ -7,7 +7,7 @@ Link to the paper: [Early Access on IEEE Xplore](https://ieeexplore.ieee.org/doc
 
 ## 1. Usage
 
-### 1.1 Data
+### 1.1 Download data
 
 Download the repository, navigate to the CVML-Pose directory, download and unzip the following datasets from the [BOP challenge](https://bop.felk.cvut.cz/datasets/).
 
