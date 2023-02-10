@@ -1,6 +1,6 @@
 # CVML-Pose: Convolutional VAE based Multi-Level Network for Object 3D Pose Estimation
 
-Authors: Jianyu Zhao, [Edward Sanderson](https://scholar.google.com/citations?user=ea4c7r0AAAAJ&hl=en&oi=ao), [Bogdan J. Matuszewski](https://scholar.google.co.uk/citations?user=QlUO_oAAAAAJ&hl=en)
+Authors: [Jianyu Zhao](https://orcid.org/0000-0002-1531-8658), [Edward Sanderson](https://scholar.google.com/citations?user=ea4c7r0AAAAJ&hl=en&oi=ao), [Bogdan J. Matuszewski](https://scholar.google.co.uk/citations?user=QlUO_oAAAAAJ&hl=en)
 
 Link to the paper: [Early Access on IEEE Xplore](https://ieeexplore.ieee.org/document/10040668)
 
@@ -173,6 +173,5 @@ This work makes use of an existing object detection model which is openly availa
 + [CosyPose](https://github.com/ylabbe/cosypose)
 
 ## 6. Additional information
-UCLan Computer Vision and Machine Learning (CVML) Group: [CVML Group](https://www.uclan.ac.uk/research/activity/cvml)
-
+[UCLan Computer Vision and Machine Learning (CVML) Group](https://www.uclan.ac.uk/research/activity/cvml)
 Contact: jzhao12@uclan.ac.uk
