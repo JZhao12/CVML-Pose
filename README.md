@@ -153,17 +153,13 @@ Contributions to this paper by B.J. Matuszewski were in part supported by the En
 
 This work makes use of multiple existing datasets which are openly available at:
 
-+ Hodaň, T., Sundermeyer, M., Drost, B., Labbé, Y., Brachmann, E., Michel, F., Rother, C. and Matas, J., 2020, August. BOP challenge 2020 on 6D object localization. In European Conference on Computer Vision (pp. 577-594). Springer, Cham.
-https://bop.felk.cvut.cz/datasets/
++ Hodaň, T., Sundermeyer, M., Drost, B., Labbé, Y., Brachmann, E., Michel, F., Rother, C. and Matas, J., 2020, August. BOP challenge 2020 on 6D object localization. In European Conference on Computer Vision (pp. 577-594). Springer, Cham. [link](https://bop.felk.cvut.cz/datasets/)
 
-+ Hinterstoisser et al.: Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes, ACCV 2012.
-https://campar.in.tum.de/Main/StefanHinterstoisser
++ Hinterstoisser et al.: Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes, ACCV 2012. [link](https://campar.in.tum.de/Main/StefanHinterstoisser)
 
-+ Tekin, B., Sinha, S.N. and Fua, P., 2018. Real-time seamless single shot 6d object pose prediction. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 292-301).
-https://github.com/microsoft/singleshotpose
++ Tekin, B., Sinha, S.N. and Fua, P., 2018. Real-time seamless single shot 6d object pose prediction. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 292-301). [link](https://github.com/microsoft/singleshotpose)
 
-+ Brachmann et al.: Learning 6d object pose estimation using 3d object coordinates, ECCV 2014.
-https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/V4MUMX
++ Brachmann et al.: Learning 6d object pose estimation using 3d object coordinates, ECCV 2014. [link](https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/V4MUMX)
 
 This work makes use of multiple existing code which are openly available at:
 + [BOP Toolkit](https://github.com/thodan/bop_toolkit)
