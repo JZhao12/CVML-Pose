@@ -4,6 +4,7 @@ Authors: [Jianyu Zhao](https://orcid.org/0000-0002-1531-8658), [Edward Sanderson
 
 Link to the paper: [Early Access on IEEE Xplore](https://ieeexplore.ieee.org/document/10040668)
 
+![GA overlay image](https://user-images.githubusercontent.com/43590151/218354565-31c3a72f-a7e1-475a-8f4f-b4ac35de810b.png)
 
 ## 1. Usage
 
@@ -13,7 +14,7 @@ Download the repository, navigate to the CVML-Pose directory, download and unzip
 
 ```
 cd CVML-Pose
-mkdir original\ data              # the 'original data' folder
+mkdir original\ data              # make the 'original data' folder
 cd original\ data
 
 export SRC=https://bop.felk.cvut.cz/media/data/bop_datasets
@@ -77,15 +78,15 @@ pip install pyrender pypng opencv-python
 
 As described in the paper, each target object is cropped into a square shape from the scene based on the bounding box. You can run the following scripts to get training/test images.
 ```
-conda activate CVML-Pose
 cd CVML-Pose
+conda activate CVML-Pose
 
 python scripts/pbr.py                   # extract input training images
 python scripts/recon.py --object 1      # generate ground truth reconstruction images
 python scripts/test_gt.py               # extract test images with ground truth bounding box
 ```
 
-To use the pretrained Mask-R-CNN detector, go to the scripts/test_mask.py, change the code "sys.path.append('/home/jianyu/CVML-Pose/cosypose/')" to your CosyPose path, then run the script:
+To use the pretrained Mask-R-CNN detector, go to this script ```scripts/test_mask.py```, change the code ```sys.path.append('/home/jianyu/CVML-Pose/cosypose/')``` to your CosyPose path, then run the script:
 ```
 python scripts/test_mask.py             # extract test images with the detector bounding box
 ```
@@ -95,8 +96,8 @@ To train the CVML-Pose, there are 3 models and 13 objects available:
 + model choice: CVML_base, CVML_18, CVML_34; 
 + object choice: 1-15 except 3&7;
 ```
-conda activate CVML-Pose
 cd CVML-Pose
+conda activate CVML-Pose
 
 python scripts/cvml_ae.py --model CVML_18 --object 1      # train the CVML_AE models
 python scripts/latent.py --model CVML_18 --object 1       # get latent variables
@@ -113,11 +114,12 @@ cd CVML-Pose
 git clone https://github.com/thodan/bop_toolkit.git
 ```
 
-To use the BOP Toolkit, go to the scripts/evaluate.py, change the code "sys.path.append('/home/jianyu/CVML-Pose/bop_toolkit/')" to your BOP Toolkit path, then evaluate the etimated pose:
+To use the BOP Toolkit, go to this script ```scripts/evaluate.py```, change the code ```sys.path.append('/home/jianyu/CVML-Pose/bop_toolkit/')``` to your BOP Toolkit path, then evaluate the etimated pose:
 + model choice: CVML_base, CVML_18, CVML_34; 
 + data choice: lm, lmo;
 + type choice: gt, mask;
 ```
+cd CVML-Pose
 conda activate CVML-Pose
 
 python scripts/evaluate.py --model CVML_18 --data lm --type gt
@@ -125,9 +127,10 @@ python scripts/evaluate.py --model CVML_18 --data lm --type gt
 
 ### 1.6 Real-time pose estimation
 
-To implement real-time pose estimation with the CVML-Pose, go to the scripts/realtime.py and scripts/realtime_no_detect.py, change the code "sys.path.append('/home/jianyu/CVML-Pose/cosypose/')" to your CosyPose path, then run:
+To implement real-time pose estimation with the CVML-Pose, go to the two scripts ```scripts/realtime.py``` and ```scripts/realtime_no_detect.py```, change the code ```sys.path.append('/home/jianyu/CVML-Pose/cosypose/')``` to your CosyPose path, then run:
 + object choice: 1-15 except 3&7;
 ```
+cd CVML-Pose
 conda activate CVML-Pose
 
 python scripts/realtime.py --object 1             # estimate object 3D pose in real-time with the pretrained Mask-R-CNN detector
@@ -167,7 +170,7 @@ This work makes use of multiple existing code which are openly available at:
 + [Pyrender](https://github.com/mmatl/pyrender)
 + [PyTorch3D](https://github.com/facebookresearch/pytorch3d)
 + [PyTorch VAE](https://github.com/AntixK/PyTorch-VAE)
-+ [Dive into Deep Learning](https://github.com/d2l-ai/d2l-zh)
++ [Dive into Deep Learning](https://d2l.ai/index.html)
 
 This work makes use of an existing object detection model which is openly available at:
 + [CosyPose](https://github.com/ylabbe/cosypose)
