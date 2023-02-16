@@ -2,7 +2,7 @@
 
 Authors: [Jianyu Zhao](https://orcid.org/0000-0002-1531-8658), [Edward Sanderson](https://scholar.google.com/citations?user=ea4c7r0AAAAJ&hl=en&oi=ao), [Bogdan J. Matuszewski](https://scholar.google.co.uk/citations?user=QlUO_oAAAAAJ&hl=en)
 
-Link to the paper: [Early Access on IEEE Xplore](https://ieeexplore.ieee.org/document/10040668)
+Link to the paper: [Open Access on IEEE Xplore](https://ieeexplore.ieee.org/document/10040668)
 
 ![GA overlay image](https://user-images.githubusercontent.com/43590151/218354565-31c3a72f-a7e1-475a-8f4f-b4ac35de810b.png)
 
