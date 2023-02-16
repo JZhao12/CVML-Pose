@@ -4,6 +4,20 @@ Authors: [Jianyu Zhao](https://scholar.google.com/citations?user=b6qSMLwAAAAJ&hl
 
 Link to the paper: [Open Access on IEEE Xplore](https://ieeexplore.ieee.org/document/10040668)
 
+If you find this work useful to your research, please consider citing us:
+
+```
+@ARTICLE{10040668,
+  author={Zhao, Jianyu and Sanderson, Edward and Matuszewski, Bogdan J.},
+  journal={IEEE Access}, 
+  title={CVML-Pose: Convolutional VAE Based Multi-Level Network for Object 3D Pose Estimation}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={13830-13845},
+  doi={10.1109/ACCESS.2023.3243551}}
+```
+
 ![GA overlay image](https://user-images.githubusercontent.com/43590151/218354565-31c3a72f-a7e1-475a-8f4f-b4ac35de810b.png)
 
 ## 1. Usage
@@ -137,20 +151,15 @@ python scripts/realtime.py --object 1             # estimate object 3D pose in r
 python scripts/realtime_no_detect.py --object 1   # estimate object 3D pose in real-time in a fixed location(no detector)
 ```
 
-
 ## 2. License
 
 This repository is released under the Apache 2.0 license as described in the [LICENSE](https://github.com/JZhao12/CVML-Pose/blob/main/LICENSE).
 
-## 3. Citation
-
-If you find this work useful to your research, please consider citing us.
-
-## 4. Commercial use
+## 3. Commercial use
 
 We allow commerical use of this work, as permitted by the [LICENSE](https://github.com/JZhao12/CVML-Pose/blob/main/LICENSE). However, where possible, please inform us of this use for the facilitation of our impact case studies.
 
-## 5. Acknowledgements
+## 4. Acknowledgements
 
 Contributions to this paper by B.J. Matuszewski were in part supported by the Engineering and Physical Sciences Research Council [grant number EP/K019368/1].
 
@@ -175,7 +184,7 @@ This work makes use of multiple existing code which are openly available at:
 This work makes use of an existing object detection model which is openly available at:
 + [CosyPose](https://github.com/ylabbe/cosypose)
 
-## 6. Additional information
+## 5. Additional information
 [UCLan Computer Vision and Machine Learning (CVML) Group](https://www.uclan.ac.uk/research/activity/cvml)
 
 Contact: jzhao12@uclan.ac.uk
