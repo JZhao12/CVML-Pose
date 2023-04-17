@@ -7,15 +7,15 @@ Link to the paper: [Open Access on IEEE Xplore](https://ieeexplore.ieee.org/docu
 If you find this work useful to your research, please consider citing us:
 
 ```
-@ARTICLE{10040668,
-  author={Zhao, Jianyu and Sanderson, Edward and Matuszewski, Bogdan J.},
-  journal={IEEE Access}, 
-  title={CVML-Pose: Convolutional VAE Based Multi-Level Network for Object 3D Pose Estimation}, 
-  year={2023},
+@article{zhao2023cvml,
+  title={CVML-Pose: Convolutional VAE Based Multi-Level Network for Object 3D Pose Estimation},
+  author={Zhao, Jianyu and Sanderson, Edward and Matuszewski, Bogdan J},
+  journal={IEEE Access},
   volume={11},
-  number={},
-  pages={13830-13845},
-  doi={10.1109/ACCESS.2023.3243551}}
+  pages={13830--13845},
+  year={2023},
+  publisher={IEEE}
+}
 ```
 
 ![GA overlay image](https://user-images.githubusercontent.com/43590151/218354565-31c3a72f-a7e1-475a-8f4f-b4ac35de810b.png)
