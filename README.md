@@ -53,7 +53,7 @@ wget -O LINEMOD.tar --no-check-certificate "https://onedrive.live.com/download?c
 tar xf LINEMOD.tar
 ```
 
-Our method does not include object detetcion/segmentation, we use the Mask-R-CNN detector pretrained by [CosyPose](https://github.com/ylabbe/cosypose). The CosyPose environment can be created using the following commands:
+Our method does not include object detection/segmentation, we use the Mask-R-CNN detector pretrained by [CosyPose](https://github.com/ylabbe/cosypose). The CosyPose environment can be created using the following commands:
 ```
 cd CVML-Pose
 git clone --recurse-submodules https://github.com/ylabbe/cosypose.git
@@ -128,7 +128,7 @@ cd CVML-Pose
 git clone https://github.com/thodan/bop_toolkit.git
 ```
 
-To use the BOP Toolkit, go to this script ```scripts/evaluate.py```, change the code ```sys.path.append('/home/jianyu/CVML-Pose/bop_toolkit/')``` to your BOP Toolkit path, then evaluate the etimated pose:
+To use the BOP Toolkit, go to this script ```scripts/evaluate.py```, change the code ```sys.path.append('/home/jianyu/CVML-Pose/bop_toolkit/')``` to your BOP Toolkit path, then evaluate the estimated pose:
 + model choice: CVML_base, CVML_18, CVML_34; 
 + data choice: lm, lmo;
 + type choice: gt, mask;
@@ -141,7 +141,7 @@ python scripts/evaluate.py --model CVML_18 --data lm --type gt
 
 ### 1.6 Real-time pose estimation
 
-To implement real-time pose estimation with the CVML-Pose, go to the two scripts ```scripts/realtime.py``` and ```scripts/realtime_no_detect.py```, change the code ```sys.path.append('/home/jianyu/CVML-Pose/cosypose/')``` to your CosyPose path, then run:
+To implement real-time pose estimation with CVML-Pose, go to the two scripts ```scripts/realtime.py``` and ```scripts/realtime_no_detect.py```, change the code ```sys.path.append('/home/jianyu/CVML-Pose/cosypose/')``` to your CosyPose path, then run:
 + object choice: 1-15 except 3&7;
 ```
 cd CVML-Pose
@@ -150,6 +150,12 @@ conda activate CVML-Pose
 python scripts/realtime.py --object 1             # estimate object 3D pose in real-time with the pretrained Mask-R-CNN detector
 python scripts/realtime_no_detect.py --object 1   # estimate object 3D pose in real-time in a fixed location(no detector)
 ```
+
+### 1.7 Trained models and results
+
+In terms of the train models (weights), although the data we used are publicly available, we cannot guarantee whether we can distribute the data including the weights trained on the data. But you can always follow the guidance to train the models, and any questions about training are welcome. We are very sorry for any inconvenience.
+
+With respect to the results, we have opened the results of our method on Linemod and the BOP version of the Linemod-Occluded data. Please feel free to download them through [Google Drive](https://drive.google.com/drive/folders/1uJJ1YXLyggwvFicBZVgze_lbKXoVIB5H?usp=share_link).
 
 ## 2. License
 
@@ -185,6 +191,6 @@ This work makes use of an existing object detection model which is openly availa
 + [CosyPose](https://github.com/ylabbe/cosypose)
 
 ## 5. Additional information
+[Student Profile](https://www.uclan.ac.uk/student-profiles/jianyu-zhao)
 [UCLan Computer Vision and Machine Learning (CVML) Group](https://www.uclan.ac.uk/research/activity/cvml)
-
 Contact: jzhao12@uclan.ac.uk
