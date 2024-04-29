@@ -31,7 +31,7 @@ cd CVML-Pose
 mkdir original\ data              # make the 'original data' folder
 cd original\ data
 
-export SRC=https://bop.felk.cvut.cz/media/data/bop_datasets
+export SRC=https://huggingface.co/datasets/bop-benchmark/datasets/resolve/main
 wget $SRC/lm_base.zip             # Linemod base archive
 wget $SRC/lm_models.zip           # Linemod 3D object's model
 wget $SRC/lm_test_all.zip         # Linemod real images
