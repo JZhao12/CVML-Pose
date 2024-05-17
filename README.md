@@ -28,23 +28,23 @@ Download the repository, navigate to the CVML-Pose directory, download and unzip
 
 ```
 cd CVML-Pose
-mkdir original\ data              # make the 'original data' folder
+mkdir original\ data                  # make the "original data" folder
 cd original\ data
 
 export SRC=https://huggingface.co/datasets/bop-benchmark/datasets/resolve/main
-wget $SRC/lm/lm_base.zip             # Linemod base archive
-wget $SRC/lm/lm_models.zip           # Linemod 3D object's model
-wget $SRC/lm/lm_test_all.zip         # Linemod real images
-wget $SRC/lm/lm_train_pbr.zip        # Linemod PBR images
+wget $SRC/lm/lm_base.zip              # Linemod base archive
+wget $SRC/lm/lm_models.zip            # Linemod 3D object's model
+wget $SRC/lm/lm_test_all.zip          # Linemod real images
+wget $SRC/lm/lm_train_pbr.zip         # Linemod PBR images
 wget $SRC/lmo/lmo_base.zip            # Linemod-Occluded base archive
 wget $SRC/lmo/lmo_test_bop19.zip      # The BOP version of the Linemod-Occluded test images
 
-unzip lm_base.zip                 # Contains folder "lm"
-unzip lm_models.zip -d lm         # Unpacks to "lm"
-unzip lm_test_all.zip -d lm       # Unpacks to "lm"
-unzip lm_train_pbr.zip -d lm      # Unpacks to "lm"
-unzip lmo_base.zip                # Contains folder "lmo"
-unzip lmo_test_bop19.zip -d lmo   # Unpacks to "lmo"
+unzip lm_base.zip                     # Contains folder "lm"
+unzip lm_models.zip -d lm             # Unpacks to "lm"
+unzip lm_test_all.zip -d lm           # Unpacks to "lm"
+unzip lm_train_pbr.zip -d lm          # Unpacks to "lm"
+unzip lmo_base.zip                    # Contains folder "lmo"
+unzip lmo_test_bop19.zip -d lmo       # Unpacks to "lmo"
 ```
 
 Since many approaches (BB8, SingleShotPose, PVNet, etc) divide the original Linemod real images into train/test set, and evaluate on the test set, we download the test list from [SingleShotPose](https://github.com/microsoft/singleshotpose) to make a fair comparison.
