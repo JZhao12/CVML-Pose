@@ -163,7 +163,7 @@ This repository is released under the Apache 2.0 license as described in the [LI
 
 ## 3. Commercial use
 
-We allow commerical use of this work, as permitted by the [LICENSE](https://github.com/JZhao12/CVML-Pose/blob/main/LICENSE). However, where possible, please inform us of this use for the facilitation of our impact case studies.
+We allow commercial use of this work, as permitted by the [LICENSE](https://github.com/JZhao12/CVML-Pose/blob/main/LICENSE). However, where possible, please inform us of this use for the facilitation of our impact case studies.
 
 ## 4. Acknowledgements
 
