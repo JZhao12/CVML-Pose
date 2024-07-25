@@ -1,10 +1,10 @@
-# CVML-Pose: Convolutional VAE based Multi-Level Network for Object 3D Pose Estimation (IEEE ACCESS 2023, IF 3.4, H5-Index 266)
+# CVML-Pose: Convolutional VAE based Multi-Level Network for Object 3D Pose Estimation (IEEE ACCESS 2023)
 
 <img width="1618" alt="new ga" src="https://github.com/user-attachments/assets/41a11257-84ca-4c19-b189-5ee2ba84fbc5">
 
 Authors: [Jianyu Zhao](https://scholar.google.com/citations?user=b6qSMLwAAAAJ&hl=en), [Edward Sanderson](https://scholar.google.com/citations?user=ea4c7r0AAAAJ&hl=en&oi=ao), [Bogdan J. Matuszewski](https://scholar.google.co.uk/citations?user=QlUO_oAAAAAJ&hl=en)
 
-Open access link: https://ieeexplore.ieee.org/document/10040668
+Open access link: https://ieeexplore.ieee.org/document/10040668 (IF 3.4, H5-Index 266)
 
 If you find this work useful to your research, please consider citing:
 
