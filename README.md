@@ -191,6 +191,16 @@ This work makes use of an existing object detection model which is openly availa
 + [CosyPose](https://github.com/ylabbe/cosypose)
 
 ## 5. Additional information
+
+We have developed an extended multi-object method [CVAM-Pose](https://github.com/JZhao12/CVAM-Pose), you may also consider citing it:
+```
+@inproceedings{zhao2024cvam,
+  title={CVAM-Pose: Conditional Variational Autoencoder for Multi-Object Monocular Pose Estimation},
+  author={Zhao, Jianyu and Quan, Wei and Matuszewski, Bogdan J},
+  booktitle={The 35th British Machine Vision Conference, 25th-28th November 2024, Glasgow, UK},
+}
+```
+
 [Student Profile](https://www.uclan.ac.uk/student-profiles/jianyu-zhao)
 
 [UCLan Computer Vision and Machine Learning (CVML) Group](https://www.uclan.ac.uk/research/activity/cvml)
