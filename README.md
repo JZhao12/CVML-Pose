@@ -1,10 +1,12 @@
 # CVML-Pose: Convolutional VAE based Multi-Level Network for Object 3D Pose Estimation
 
+<img width="1618" alt="new ga" src="https://github.com/user-attachments/assets/41a11257-84ca-4c19-b189-5ee2ba84fbc5">
+
 Authors: [Jianyu Zhao](https://scholar.google.com/citations?user=b6qSMLwAAAAJ&hl=en), [Edward Sanderson](https://scholar.google.com/citations?user=ea4c7r0AAAAJ&hl=en&oi=ao), [Bogdan J. Matuszewski](https://scholar.google.co.uk/citations?user=QlUO_oAAAAAJ&hl=en)
 
 Open access link: https://ieeexplore.ieee.org/document/10040668
 
-If you find this work useful to your research, please consider citing us:
+If you find this work useful to your research, please consider citing:
 
 ```
 @article{zhao2023cvml,
@@ -18,7 +20,14 @@ If you find this work useful to your research, please consider citing us:
 }
 ```
 
-![GA overlay image](https://user-images.githubusercontent.com/43590151/218354565-31c3a72f-a7e1-475a-8f4f-b4ac35de810b.png)
+An extended multi-object version ([CVAM-Pose](https://github.com/JZhao12/CVAM-Pose)) has been accepted at BMVC 2024, you may consider citing:
+```
+@inproceedings{zhao2024cvam,
+  title={CVAM-Pose: Conditional Variational Autoencoder for Multi-Object Monocular Pose Estimation},
+  author={Zhao, Jianyu and Quan, Wei and Matuszewski, Bogdan J},
+  booktitle={The 35th British Machine Vision Conference, 25th-28th November 2024, Glasgow, UK},
+}
+```
 
 ## 1. Usage
 
@@ -191,15 +200,6 @@ This work makes use of an existing object detection model which is openly availa
 + [CosyPose](https://github.com/ylabbe/cosypose)
 
 ## 5. Additional information
-
-We have developed an extended multi-object method [CVAM-Pose](https://github.com/JZhao12/CVAM-Pose), you may also consider citing it:
-```
-@inproceedings{zhao2024cvam,
-  title={CVAM-Pose: Conditional Variational Autoencoder for Multi-Object Monocular Pose Estimation},
-  author={Zhao, Jianyu and Quan, Wei and Matuszewski, Bogdan J},
-  booktitle={The 35th British Machine Vision Conference, 25th-28th November 2024, Glasgow, UK},
-}
-```
 
 [Student Profile](https://www.uclan.ac.uk/student-profiles/jianyu-zhao)
 
