@@ -62,6 +62,8 @@ wget -O LINEMOD.tar --no-check-certificate "https://onedrive.live.com/download?c
 tar xf LINEMOD.tar
 ```
 
+**Important update on 2024/05/08**: For whatever reason this Linemod dataset cannot be downloaded from the SingleShotPose repository, so I have uploaded it through [Google Drive](https://drive.google.com/file/d/107xiwRzM5dIvpb93CaAU79zstuuJ4Bj0/view?usp=drive_link)
+
 Our method does not include object detection/segmentation, we use the Mask-R-CNN detector pretrained by [CosyPose](https://github.com/ylabbe/cosypose). The CosyPose environment can be created using the following commands:
 ```
 cd CVML-Pose
