@@ -203,7 +203,7 @@ This work makes use of an existing object detection model which is openly availa
 
 ## 5. Additional information
 
-[Student Profile](https://www.uclan.ac.uk/student-profiles/jianyu-zhao)
+[Student Profile](https://www.uclan.ac.uk/articles/research/jianyu-zhao)
 
 [UCLan Computer Vision and Machine Learning (CVML) Group](https://www.uclan.ac.uk/research/activity/cvml)
 
